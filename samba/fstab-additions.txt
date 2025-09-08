@@ -1,0 +1,2 @@
+UUID=a7e8c834-5271-4f5a-8f37-ed9fb5d1fc67	/mnt/bitwave	ext4	auto,exec,sync,user,owner,rw,nofail,errors=continue	0	0
+#UUID=322B-0799	/mnt/hornet	exfat	auto,exec,sync,user,owner,rw,nofail,errors=continue	0	0

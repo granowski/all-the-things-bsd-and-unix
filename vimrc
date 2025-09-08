@@ -1,0 +1,10 @@
+set nu
+syntax on
+set cursorline
+set cursorcolumn
+set expandtab
+set nowrap
+set incsearch
+set showmatch
+set hlsearch
+set history=1000
