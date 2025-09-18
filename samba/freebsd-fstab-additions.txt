@@ -1,0 +1,3 @@
+# Device	Mountpoint	FStype	Options	Dump	Pass#
+/dev/mirror/gm1s1	/mnt/gm1s1	msdosfs	rw	2	2
+/dev/mirror/gm0s1	/mnt/gm0s1	ext2fs	rw	2	2
