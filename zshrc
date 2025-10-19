@@ -1,7 +1,7 @@
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
@@ -21,5 +21,8 @@ CVS_RSH=ssh
 
 export CVSEDITOR
 export CVS_RSH=ssh
+
+export CVSROOT="anoncvs@anoncvs.NetBSD.org:/cvsroot"
+export CVS_RSH="ssh"
 
 #PATH=$PATH:/home/granowski/.local/share/gem/ruby/3.3/bin
