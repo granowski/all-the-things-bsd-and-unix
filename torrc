@@ -1,0 +1,4 @@
+RunAsDaemon 1
+DataDirectory /granowski/Tor-Data-Directory
+HiddenServiceDir /granowski/Tor-Hidden-Service-Dir
+HiddenServicePort 4096 127.0.0.1:4096
