@@ -25,6 +25,12 @@ if [[ `uname -s` -eq "NetBSD" ]]; then
 
   PATH=$PATH:$JAVA_HOME/bin
   export PATH
+elif [ `uname -v` =~ "Ubuntu" ]]; then
+  JAVA_HOME=/usr/lib/jvm/java-25-openjdk-arm64
+  export JAVA_HOME
+
+  PATH=$PATH:$JAVA_HOME/bin
+  export PATH
 fi
 
 PS1='%D %* %y:%d %# '
